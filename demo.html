@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile @sadaf</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: rgb(245, 245, 245);
+        }
+
+        .card {
+            position: relative;
+            width: 45rem;
+            max-width: calc(100% - 3rem);
+            height: 25rem;
+            background-color: white;
+            border-radius: 14px;
+            margin: auto;
+            top: 6rem;
+            box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.13);
+        }
+
+        .pfp-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 8rem;
+            height: 8rem;
+            overflow: hidden;
+            box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.13);
+            background-color: rgb(254, 254, 254);
+            border-radius: 50%;
+            margin: auto;
+        }
+
+        .header {
+            position: relative;
+            bottom: 4rem;
+        }
+
+        .card-body {
+            position: relative;
+            bottom: 3rem;
+            width: 100%;
+            height: 3rem;
+            background-color: rgb(255, 255, 255);
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 18px;
+            padding-top: 1.5rem;
+            font-weight: 600;
+            color: rgb(59, 59, 59);
+        }
+
+        .at {
+            font-size: 14px;
+            font-weight: 500;
+            text-align: center;
+            color: rgb(77, 77, 77);
+        }
+
+        .bio {
+            text-align: center;
+            margin-bottom: 0.5rem;
+            padding-top: 0.5rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            font-weight: 500;
+            color: rgb(53, 53, 53);
+
+        }
+
+        .contact-area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* width: 100%;
+            height: 5rem; */
+            background-color: rgb(255, 255, 255);
+            margin: auto;
+        }
+
+        .socials-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 12rem;
+            height: 3rem;
+            background-color: white;
+            margin: auto;
+        }
+
+        .ico {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 2rem;
+            height: 2rem;
+            background-color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <div class="pfp-container">
+                <img src="https://cdn.discordapp.com/attachments/1154415616539762749/1155118564588662795/IMG_8398.jpg" alt="sad man" width="100%" height="auto">
+            </div>
+        </div>
+        <div class="card-body">
+            <h2>Sadaf Firoz</h2>
+            <p class="at">@seedafu</p>
+
+            <p class="bio">
+                Student at Geethanjali College of Technology and Engineering.
+            </p>
+
+            <div class="contact-area">
+                <div class="flex mt-4 space-x-3 md:mt-6">
+                    <a href="tel:7396150222" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                       Call
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=+917396150222&text=Hi!" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <h3>Social Media</h3>
+            <div class="socials-container">
+                <div class="ico" onclick="window.location = 'https://www.linkedin.com/in/sadaf-firoz-435718292/';">
+                    <img src="https://dentsmart.co.in/images/lnn.jpg" alt="linkedin" width="100%" height="100%">
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
